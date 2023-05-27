@@ -27,10 +27,19 @@ box-sizing: inherit;
     height: 20px;
 }
 
+.header-container-top p {
+    margin-left: 90px;
+}
+
 .header-lista {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    margin-right: 60px;
+}
+
+.header-lista li {
+    margin-inline-start: 20px;
 }
 
 .header-container-bottom {
@@ -62,10 +71,10 @@ box-sizing: inherit;
     font-size: 13px;
     list-style: none;
     margin-right: 40px;
+    display: flex;
 }
 
 .nav-links li {
-    display: inline-block;
     margin-inline-start: 20px;
 }
 
@@ -74,6 +83,16 @@ box-sizing: inherit;
     background-size: cover;
     background-repeat: no-repeat;
     height:40em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.slide-elements {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 12px;
 }
 
 .slide-title {
