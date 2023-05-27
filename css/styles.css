@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
 
 * {
     font-family: Roboto, sans-serif;
@@ -150,26 +150,34 @@ box-sizing: inherit;
 
 .articles-header p, a {
     color: #666666;
-    text-decoration: none;
     font-size: 15px;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .articles-header h2 {
     margin-top: 5px;
     margin-bottom: 20px;
-
 }
 
 .articles {
     display: flex;
+    font-weight: 500;
+    font-size: 15px;
     justify-content:space-between;
     margin-left: 95px;
     margin-right: 95px;
     margin-top: 49px;
-    
+    margin-bottom: 78px;
+    text-align: center;
+}
 
+.articles h3 {
+    color: #3C2313;
+}
 
+.articles p {
+    color: #F0A83E;
 }
 
 
