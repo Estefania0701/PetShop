@@ -82,10 +82,10 @@ box-sizing: inherit;
     background-image: url("../img/bowl-and-pet-daities-on-green-background 1.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height:40em;
+    height:409px;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    
 }
 
 .slide-elements {
@@ -93,6 +93,8 @@ box-sizing: inherit;
     align-items: center;
     flex-direction: column;
     margin-right: 12px;
+    margin-top: 156px;
+
 }
 
 .slide-title {
@@ -104,6 +106,7 @@ box-sizing: inherit;
     padding: 10px;
     text-align: center;
     width: fit-content;
+    margin-bottom: 12px;
 }
 
 .slide-p {
@@ -112,6 +115,7 @@ box-sizing: inherit;
     font-weight: 400;
     text-align: center;
     width: fit-content;
+    margin-bottom: 12px;
 }
 
 .slide-button {
