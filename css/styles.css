@@ -54,6 +54,10 @@
     line-height: 23,44;
 }
 
+.header-container-bottom i {
+    display:none;
+}
+
 .nav-links {
     color: white;
     font-weight: 400;
@@ -145,6 +149,7 @@
 
 .articles {
     display: flex;
+    flex-wrap: wrap;
     font-weight: 500;
     font-size: 15px;
     justify-content:space-evenly;
@@ -238,6 +243,10 @@ article {
     align-items: center;
 }
 
+.suscribete form {
+    margin-right: 47px ;
+}
+
 .suscribete h2 {
     margin-left: 10px;
     font-size: 20px;
@@ -265,11 +274,7 @@ article {
     padding: 12px 10px;
     width: fit-content;
     font-weight: 700;
-    margin-right: 47px ;
 }
-
-
-
 
 
 .datos-contacto{
@@ -327,4 +332,62 @@ article {
     font-size: 10px;
     font-weight: 700;
     text-align: center;
+}
+
+
+
+@media screen and (max-width: 780px) {
+
+    .header-container-bottom i {
+        display: block;
+        color: white;
+        margin-right: 40px;
+        font-size: 20px;
+    }
+
+    .header-container-top {
+        display: none;
+    }
+
+    .header-container-bottom nav {
+        display: none;
+    }
+
+    .slide-elements {
+        align-items: flex-end;
+    }
+
+    .articles {
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .suscribete {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .suscribete div{
+        margin-left: 0px;
+    }
+
+    .suscribete form {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .datos-contacto .logo-base {
+        margin-right: 0px;
+        margin-top: 20px ;
+    } 
+
+    .datos-contacto {
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .datos-contacto li {
+        margin-left: 0px;
+    }
 }
